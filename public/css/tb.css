@@ -1,0 +1,38 @@
+.brand-logo img{
+max-width: 50%;
+}
+.brand-logo{
+    color: #ffffff;
+}
+.navbar-fixed-top{
+    height: 110px;
+}
+blockquote::before{
+    font-size: 24px;
+}
+
+blockquote{
+    font-size: 18px;
+    padding-left: 50px;
+
+}
+body{
+    color: #70727a;
+}
+
+.text-center img{
+    max-width: 50%;
+}
+#about{
+    padding-top: 20px;
+}
+
+/*.products{*/
+    /*background: url(../images/vinte/parque2.jpg) 50% 0 no-repeat scroll;*/
+/*}*/
+
+#blog.single-bg .section-block-title{
+    background-image: url("../images/vinte/hogar1.jpg");
+    background-size: cover;
+    background-position: center center;
+}

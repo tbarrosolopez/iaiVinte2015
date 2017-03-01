@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<%= erb :"/bloques/head" %>
+<body id="home">
+
+  <%= erb :"/bloques/top_nav" %>
+  <%= erb :"/bloques/header" %>
+  <%= yield %>
+
+  <%= erb :"/bloques/footer" %>
+
+<%= erb :"/bloques/scripts" %>
+</body>

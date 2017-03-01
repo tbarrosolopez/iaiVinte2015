@@ -1,0 +1,31 @@
+<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header pull-left">
+      <a class="navbar-brand page-scroll" href="http://localhost:3030">
+        <!-- replace with your brand logo/text -->
+        <span class="brand-logo"><img src="/images/vinte/vintelogo.svg" onerror="this.src='/images/vinte/vintelogo.png'; this.onerror=null;" alt="Hallooou - HTML5 Template" title="Hallooou - HTML5 Template" class="img-responsive"></span>
+
+      </a>
+    </div>
+    <div class="main-nav pull-right">
+      <div class="button_container toggle">
+        <span class="top"></span>
+        <span class="middle"></span>
+        <span class="bottom"></span>
+      </div>
+    </div>
+    <div class="overlay" id="overlay">
+      <nav class="overlay-menu">
+        <ul>
+          <li><a href="<%="/"%>"><%= I18n.t 'Inicio' %></a></li>
+          <li><a href="<%="/#{I18n.locale}/resumen"%>"><%= I18n.t 'Resumen' %></a></li>
+          <li><a href="<%="/#{I18n.locale}/info-financiera"%>"><%= I18n.t 'Info_F' %></a></li>
+          <li><a href="<%="/#{I18n.locale}/analisis"%>"><%= I18n.t 'Analisis_Admon' %></a></li>
+          <li><a href="<%="/#{I18n.locale}/administracion"%>"><%= I18n.t 'Admon' %></a></li>
+          <li><a href="<%="/#{I18n.locale}/estados"%>"><%= I18n.t 'EEFF' %></a></li>
+
+        </ul>
+      </nav>
+    </div>
+  </div><!-- /.container -->
+</nav>
