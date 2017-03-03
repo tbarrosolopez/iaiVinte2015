@@ -36,3 +36,55 @@ body{
     background-size: cover;
     background-position: center center;
 }
+
+
+.container p{
+    font-size: 13px !important;
+}
+
+.right-vinte-hoy,.left-vinte-hoy{
+    width: 48%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.right-vinte-hoy ul,.left-vinte-hoy ul{
+    list-style: none;
+}
+.buller{
+    width: 19%;
+    /*height: 60px;*/
+    background-color: #feba02;
+    border-radius: 30px;
+    box-shadow: 1px 1px 8px #888888;
+    border: 1px solid #feba02;
+    display: inline-block;
+    vertical-align: top;
+    height: auto;
+}
+
+.content-buller{
+    width: 71%;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px;
+}
+.fa-empire::before, .fa-home::before, .fa-user::before, .fa-pie-chart::before, .fa-trophy::before, .fa-usd::before{
+    font-size: 60px;
+    color: #ffffff;
+}
+.fa-user::before{
+    margin-left: 6px;
+}
+
+.fa-trophy::before{
+    margin-left: 2px;
+}
+.fa-bar-chart::before{
+    font-size: 52px;
+    color: #ffffff;
+}
+
+.fa-usd::before{
+    margin-left: 12px;
+}
